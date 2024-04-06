@@ -2,11 +2,11 @@ import fsimage from './full-stack-web-development.jpg';
 
 function App() {
   return (
-    <div className="shadow-lg p-10">
-      <h1 className="font-bold text-center p-5 text-3xl">
+    <div className="shadow-lg p-10 m-20 bg-slate-800">
+      <h1 className="font-bold text-center p-5 text-3xl text-white">
         Portfolio Assignment
       </h1>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
         <img
           class="w-full"
           src={fsimage}
